@@ -13,7 +13,6 @@ $(document).ready(function() {
 
 		$selected.addClass("selected");
 
-
 		if ($selected.hasClass("correct")) {
 			$selected.addClass("correct-answer");
       
@@ -22,5 +21,14 @@ $(document).ready(function() {
 			$selected.addClass("incorrect-answer");
     }
   });
+  
+  
+  $(document).ready(function () {
+  $('.carousel').carousel({
+    interval: 3000,  
+    pause: 'hover'   
+  });
+});
+
   
 });
