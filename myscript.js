@@ -22,4 +22,19 @@ $(document).ready(function() {
     }
   });
   
+  $("#cat").hover(
+    function() {
+    $(this).stop().animate({
+        width: "300px",
+        height: "300px"
+      }, 300);
+    },
+    
+    function() {
+    $(this).stop().animate({
+        width: "200px",
+        height: "200px"
+       }, 300);
+    }
+  );
 });
