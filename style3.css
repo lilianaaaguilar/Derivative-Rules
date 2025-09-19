@@ -82,4 +82,15 @@ html body {
 a:hover, a:active {
   background-color: #A5D1AA;
 }
+.carousel-control-prev-icon {
+    background-color: black;
+}
+
+.carousel-control-next-icon {
+    background-color: black;
+}
+
+#powerCarousel {
+    margin-bottom: 50px;
+}
 
