@@ -13,7 +13,7 @@ $(document).ready(function() {
 
 		$selected.addClass("selected");
 
-		$answers.css("pointer-events", "none");
+		//$answers.css("pointer-events", "none");
 
 		if ($selected.hasClass("correct")) {
 			$selected.addClass("correct-answer");
