@@ -3,15 +3,16 @@ h1 {
 	text-decoration-color: mediumseagreen;
 	text-align: center;
 }
+h2{
+	margin: 10px;
+}
 h3 {
 	color: mediumSeaGreen;
 	margin-left: 50px;
 }
-p {
-	margin-left: 80px;
-}
 html body {
-  background-color: honeydew;
+	background-color: honeydew;
+	margin: 50px;
 }
 
 

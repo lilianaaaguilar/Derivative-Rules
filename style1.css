@@ -7,11 +7,13 @@ h3, h4 {
 	color: mediumSeaGreen;
 	margin-left: 50px;
 }
-p {
-	margin-left: 80px;
+h2{
+	margin: 10px;
 }
+
 html body {
   background-color: honeydew;
+  margin: 50px;
 }
 
 :link, a:visited {
